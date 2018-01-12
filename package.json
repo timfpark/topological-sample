@@ -1,0 +1,24 @@
+{
+  "name": "topological-sample",
+  "version": "1.0.0",
+  "description": "Simple sample application for Topological",
+  "main": "pipeline.js",
+  "scripts": {
+    "start": "node pipeline.js",
+    "test": "mocha --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timfpark/topological-sample.git"
+  },
+  "author": "Tim Park",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timfpark/topological-sample/issues"
+  },
+  "homepage": "https://github.com/timfpark/topological-sample#readme",
+  "dependencies": {
+    "topological": "^1.0.25",
+    "topological-direct": "^1.0.8"
+  }
+}
